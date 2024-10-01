@@ -1,0 +1,15 @@
+public class SumnaRecursiva{
+	public static int suma(int n){
+	if(n<=0){
+	return 0;
+}
+return n + suma(n-1);
+
+}
+		public static void main(String[ ]args){
+			int numero=5;
+		int resultado=suma(numero);
+	System.out.println("la suma de los numeros desde el 1 hasta"+ numero + "es" + resultado);
+}
+}
+
